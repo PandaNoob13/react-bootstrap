@@ -1,5 +1,5 @@
 import React from 'react';
-import {useProduct} from "./UseProduct";
+import useProduct from "./UseProduct";
 
 const ProductView = () => {
     const {viewState} = useProduct();
